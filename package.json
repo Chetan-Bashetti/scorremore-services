@@ -1,0 +1,29 @@
+{
+	"name": "take-a-test-services",
+	"version": "1.0.0",
+	"description": "",
+	"main": "functions/api.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon server.js",
+		"start": "./node_modules/.bin/netlify-lambda serve src",
+		"build": "netlify deploy --prod"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"cors": "^2.8.5",
+		"crypto": "^1.0.1",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"express-async-handler": "^1.2.0",
+		"jsonwebtoken": "^9.0.0",
+		"mongoose": "^7.0.1",
+		"netlify-cli": "^15.0.2",
+		"netlify-lambda": "^2.0.16",
+		"razorpay": "^2.8.6",
+		"serverless-http": "^3.2.0"
+	}
+}
